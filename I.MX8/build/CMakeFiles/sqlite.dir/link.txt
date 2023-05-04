@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsqlite.a 
+/usr/bin/ranlib libsqlite.a

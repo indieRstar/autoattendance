@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdbform.a 
+/usr/bin/ranlib libdbform.a

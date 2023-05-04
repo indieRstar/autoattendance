@@ -1,0 +1,5 @@
+/workdir/autoattendance/I.MX8/build/CMakeFiles/sqlite.dir
+/workdir/autoattendance/I.MX8/build/CMakeFiles/dbform.dir
+/workdir/autoattendance/I.MX8/build/CMakeFiles/main.dir
+/workdir/autoattendance/I.MX8/build/CMakeFiles/edit_cache.dir
+/workdir/autoattendance/I.MX8/build/CMakeFiles/rebuild_cache.dir
