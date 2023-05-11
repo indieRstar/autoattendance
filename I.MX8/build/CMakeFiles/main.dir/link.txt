@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/Serial.cpp.o CMakeFiles/main.dir/src/autoattend.cpp.o -o main  libsqlite.a libdbform.a 
+/usr/bin/c++  -pthread CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/Serial.cpp.o CMakeFiles/main.dir/src/autoattendance.cpp.o -o main  libsqlite.a libdbform.a 

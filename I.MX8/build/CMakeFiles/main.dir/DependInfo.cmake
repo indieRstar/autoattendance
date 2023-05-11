@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/workdir/autoattendance/I.MX8/src/Serial.cpp" "CMakeFiles/main.dir/src/Serial.cpp.o" "gcc" "CMakeFiles/main.dir/src/Serial.cpp.o.d"
-  "/workdir/autoattendance/I.MX8/src/autoattend.cpp" "CMakeFiles/main.dir/src/autoattend.cpp.o" "gcc" "CMakeFiles/main.dir/src/autoattend.cpp.o.d"
+  "/workdir/autoattendance/I.MX8/src/autoattendance.cpp" "CMakeFiles/main.dir/src/autoattendance.cpp.o" "gcc" "CMakeFiles/main.dir/src/autoattendance.cpp.o.d"
   "/workdir/autoattendance/I.MX8/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   )
 

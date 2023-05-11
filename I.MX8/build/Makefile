@@ -179,29 +179,29 @@ src/Serial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Serial.cpp.s
 .PHONY : src/Serial.cpp.s
 
-src/autoattend.o: src/autoattend.cpp.o
-.PHONY : src/autoattend.o
+src/autoattendance.o: src/autoattendance.cpp.o
+.PHONY : src/autoattendance.o
 
 # target to build an object file
-src/autoattend.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/autoattend.cpp.o
-.PHONY : src/autoattend.cpp.o
+src/autoattendance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/autoattendance.cpp.o
+.PHONY : src/autoattendance.cpp.o
 
-src/autoattend.i: src/autoattend.cpp.i
-.PHONY : src/autoattend.i
+src/autoattendance.i: src/autoattendance.cpp.i
+.PHONY : src/autoattendance.i
 
 # target to preprocess a source file
-src/autoattend.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/autoattend.cpp.i
-.PHONY : src/autoattend.cpp.i
+src/autoattendance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/autoattendance.cpp.i
+.PHONY : src/autoattendance.cpp.i
 
-src/autoattend.s: src/autoattend.cpp.s
-.PHONY : src/autoattend.s
+src/autoattendance.s: src/autoattendance.cpp.s
+.PHONY : src/autoattendance.s
 
 # target to generate assembly for a file
-src/autoattend.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/autoattend.cpp.s
-.PHONY : src/autoattend.cpp.s
+src/autoattendance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/autoattendance.cpp.s
+.PHONY : src/autoattendance.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -241,9 +241,9 @@ help:
 	@echo "... src/Serial.o"
 	@echo "... src/Serial.i"
 	@echo "... src/Serial.s"
-	@echo "... src/autoattend.o"
-	@echo "... src/autoattend.i"
-	@echo "... src/autoattend.s"
+	@echo "... src/autoattendance.o"
+	@echo "... src/autoattendance.i"
+	@echo "... src/autoattendance.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

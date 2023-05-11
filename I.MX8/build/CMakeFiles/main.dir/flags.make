@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/workdir/autoattendance/I.MX8/include -I/workdir/autoattendance/I.MX8/sqlite3
 
-CXX_FLAGS = 
+CXX_FLAGS =  -pthread
 

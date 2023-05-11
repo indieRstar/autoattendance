@@ -134,8 +134,8 @@ CMakeFiles/dbform.dir/clean:
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: CMakeFiles/sqlite.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/dbform.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/sqlite.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workdir/autoattendance/I.MX8/build/CMakeFiles --progress-num=2,3,4,5 "Built target main"

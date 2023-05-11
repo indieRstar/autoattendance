@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/Serial.cpp.o"
   "CMakeFiles/main.dir/src/Serial.cpp.o.d"
-  "CMakeFiles/main.dir/src/autoattend.cpp.o"
-  "CMakeFiles/main.dir/src/autoattend.cpp.o.d"
+  "CMakeFiles/main.dir/src/autoattendance.cpp.o"
+  "CMakeFiles/main.dir/src/autoattendance.cpp.o.d"
   "CMakeFiles/main.dir/src/main.cpp.o"
   "CMakeFiles/main.dir/src/main.cpp.o.d"
   "main"
