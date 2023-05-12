@@ -1,17 +1,17 @@
 [
 {
   "directory": "/workdir/autoattendance/build",
-  "command": "/usr/bin/clang++ -I/workdir/autoattendance/I.MX8/include -I/workdir/autoattendance/I.MX8/sqlite3 -g -o CMakeFiles/main.dir/src/main.cpp.o -c /workdir/autoattendance/I.MX8/src/main.cpp",
+  "command": "/usr/bin/clang++ -I/workdir/autoattendance/I.MX8/include -I/workdir/autoattendance/I.MX8/sqlite3  -pthread -g -o CMakeFiles/main.dir/src/main.cpp.o -c /workdir/autoattendance/I.MX8/src/main.cpp",
   "file": "/workdir/autoattendance/I.MX8/src/main.cpp"
 },
 {
   "directory": "/workdir/autoattendance/build",
-  "command": "/usr/bin/clang++ -I/workdir/autoattendance/I.MX8/include -I/workdir/autoattendance/I.MX8/sqlite3 -g -o CMakeFiles/main.dir/src/Serial.cpp.o -c /workdir/autoattendance/I.MX8/src/Serial.cpp",
+  "command": "/usr/bin/clang++ -I/workdir/autoattendance/I.MX8/include -I/workdir/autoattendance/I.MX8/sqlite3  -pthread -g -o CMakeFiles/main.dir/src/Serial.cpp.o -c /workdir/autoattendance/I.MX8/src/Serial.cpp",
   "file": "/workdir/autoattendance/I.MX8/src/Serial.cpp"
 },
 {
   "directory": "/workdir/autoattendance/build",
-  "command": "/usr/bin/clang++ -I/workdir/autoattendance/I.MX8/include -I/workdir/autoattendance/I.MX8/sqlite3 -g -o CMakeFiles/main.dir/src/autoattend.cpp.o -c /workdir/autoattendance/I.MX8/src/autoattend.cpp",
-  "file": "/workdir/autoattendance/I.MX8/src/autoattend.cpp"
+  "command": "/usr/bin/clang++ -I/workdir/autoattendance/I.MX8/include -I/workdir/autoattendance/I.MX8/sqlite3  -pthread -g -o CMakeFiles/main.dir/src/autoattendance.cpp.o -c /workdir/autoattendance/I.MX8/src/autoattendance.cpp",
+  "file": "/workdir/autoattendance/I.MX8/src/autoattendance.cpp"
 }
 ]

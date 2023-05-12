@@ -15,11 +15,16 @@ private:
 
 public:
     Db() {
-        auto rc = sqlite3_open("employees.db", &db);
+        auto rc = sqlite3_open(":memory:", &db);
+        if (rc != SQLITE_OK) { 
+            fprintf(stderr, "Cannot open database: %s\n", sqlite3_errmsg(db));
+            sqlite3_close(db); };
     }
 
     ~Db() {
+        sqlite3_finalize(res);
         sqlite3_close(db);
+        
     }
 
     Db(const Db& other);
@@ -28,6 +33,14 @@ public:
     Db& operator=(const Db& other);
     Db& operator=(Db&& other) noexcept; //RAII에 따른 5의법칙
 
+    //getter
+    sqlite3 *getDb() { return db; }
+    sqlite3_stmt *getres() { return res; }
+    char *geterr_msg() { return err_msg; }
+    //setter
+    void setDb(sqlite3 *db) { this->db = db; }
+    void setres(sqlite3_stmt *res) { this->res = res; }
+    void seterr_msg(char *err_msg) { this->err_msg = err_msg; }
     
 };
 
